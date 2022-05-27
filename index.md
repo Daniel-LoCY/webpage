@@ -1,5 +1,5 @@
 # First Github Page
-## 用Markdown製作
+## 用Markdown+HTML製作
 <table>
     <th></th>
     <th>1</th>
@@ -18,3 +18,5 @@
 
 |1|
 |-|
+<button onclick="press()">測試</button><span id="display"></span>
+<script src="index.js"></script>
