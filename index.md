@@ -1,5 +1,5 @@
 # First Github Page
-## 用Markdown+HTML製作
+## 用Markdown製作
 <table>
     <th></th>
     <th>1</th>
@@ -18,5 +18,17 @@
 
 |1|
 |-|
-<button onclick="press()">測試</button><span id="display"></span>
-<script src="index.js"></script>
+<input id="in" placeholder="請輸入"/><button onclick="c()">Click</button>
+
+<script>
+    function c(){
+        var inp = document.getElementById('in');
+        if(inp.value == null || inp.value == "")
+            alert("你還沒輸入");
+        else
+            alert(document.getElementById('in').value);
+    }
+</script>
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="17djyaF"  ><a href="//imgur.com/17djyaF">I made a GIF of John Cena going Super Saiyan</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<br>
